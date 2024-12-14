@@ -1,0 +1,80 @@
+/* General Body Styling */
+body {
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+    font-family: Arial, sans-serif; /* Set font */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333; /* Slightly darker container background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: #00bfff; /* Light blue for the heading */
+    margin-bottom: 20px;
+}
+
+/* Form Field Styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+select, input {
+    width: 100%; /* Full width for responsiveness */
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box; /* Ensure padding doesn’t break layout */
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make the button stretch */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width on smaller screens */
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller heading for mobile */
+    }
+
+    label, select, input, button {
+        font-size: 1em; /* Adjust form field size */
+    }
+}
